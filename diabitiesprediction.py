@@ -106,7 +106,9 @@ False Negative (68) =The model miss the positive and predict as a negative (Type
 Model Deployment
 """
 
-!pip install streamlit
+import os
+os.system('pip install streamlit')
+
 
 from sklearn.linear_model import LogisticRegression
 import streamlit as st
