@@ -8,3 +8,15 @@ I am currently working in Marvel Inosof
 
 
 Hello every one
+
+
+class Employee {
+        String name;
+        int Empid;
+
+
+       void display() {
+    
+        System.out.println("Rmployee name"+name+"Employee id"+Empid
+}
+}
